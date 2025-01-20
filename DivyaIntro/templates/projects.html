@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Projects{% endblock title %}
+{% block project %}active{% endblock project %}
+
+
+
+{% block body %}
+<h1 class='text-center bg-dark text-light p-1' style="font-size:x-large;">PROJECTS</h1>
+<div class="d-flex flex-column w-100 align-items-center" style="height: 90vh; overflow-y:scroll;" >
+    <div class=" w-75 border rounded sizeb border border-danger rounded m-2" style="width: fit-content;">
+        <div class="container">
+            <h2 class="">Personal Portfolio Website
+            </h2>
+            <ul style='list-style-type:square'>
+                <li>Sections for About Me, Projects, Resume, and Contact</li>
+                <li>Responsive and interactive design.</li>
+                <li>Contact form </li>
+                <li>Skills: HTML, CSS, JavaScript, Bootstrap.</li>
+            </ul>
+        </div>
+    </div>
+    <div class=" w-75 border rounded sizeb border border-danger rounded m-2" style="width: fit-content;">
+        <div class="container">
+            <h2 class="">Blogging Platform
+            </h2>
+            <ul style='list-style-type:square'>
+                <li>User authentication (registration, login, logout).</li>
+                <li>CRUD (Create, Read, Update, Delete) operations for posts.</li>
+                <li>Commenting system with moderation </li>
+                <li>Categories and tags for posts.</li>
+                <li>Skills: HTML, CSS, JavaScript, Bootstrap.</li>
+            </ul>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class=" w-75 border rounded sizeb border border-danger rounded m-2" style="width: fit-content;">
+        <div class="container">
+            <h2 class="">Task Management System
+            </h2>
+            <ul style='list-style-type:square'>
+                <li>User registration and login.</li>
+                <li>Create and assign tasks with deadlines.</li>
+                <li>Task status (e.g., Pending, In Progress, Completed). </li>
+                <li>Email notifications for upcoming deadlines.</li>
+                <li>Skills: Django Forms, SQLite/MySQL, Python SMTP library..</li>
+            </ul>
+
+
+        </div>
+    </div>
+    <div class=" border w-75 rounded sizeb border border-danger rounded m-2" style="width: fit-content;">
+        <div class="container">
+            <h2 class="">
+                E-commerce Website
+            </h2>
+            <ul style='list-style-type:square'>
+                <li>User authentication (registration, login, logout).</li>
+                <li>Product catalog with categories and search functionality</li>
+                <li>Cart, checkout, and payment gateway integration (e.g.,
+                    Razorpay or Stripe). </li>
+                <li>User reviews and ratings..</li>
+                <li>Skills: Django Admin, API integration, SQL, Bootstrap.</li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock body %}

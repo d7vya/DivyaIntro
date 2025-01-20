@@ -1,0 +1,13 @@
+section p{
+    font-size: 1.5vw;
+}
+section h5{
+    font-size: 2.5vw;
+}
+.height-w{
+    width: fit-content;
+    display: inline-block;
+}
+.height{
+    width: 30%;
+}
